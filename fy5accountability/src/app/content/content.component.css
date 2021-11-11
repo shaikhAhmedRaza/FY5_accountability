@@ -1,0 +1,37 @@
+.main-container {
+    background-image: url(../../assets/images/restaurent.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0.6;
+    color: rgba(255, 255, 255, 1);
+    /* background: rgba(0, 5, 55, .8); */
+    height: 550px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 60px;
+}
+
+.container-left {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.container-right {
+    padding-top: 50px;
+    width: 100%;
+}
+.custom-card {
+    background: #fff;
+    width: 400px;
+    height: 200px;
+    margin: 15px;
+    padding:20px;
+    border: 1px solid #ffd;
+    border-radius: 4px;
+}
