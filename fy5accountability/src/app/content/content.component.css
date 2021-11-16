@@ -1,10 +1,13 @@
+.width {
+    max-width: 100vw;
+}
 .main-container {
-    background-image: url(../../assets/images/restaurent.webp);
+    /* background-image: url(../../assets/images/restaurent.webp); */   
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("../../assets/images/restaurent.webp");
+
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
-    opacity: 0.6;
-    color: rgba(255, 255, 255, 1);
+    color: #fff;
     /* background: rgba(0, 5, 55, .8); */
     height: 550px;
 }
@@ -22,6 +25,11 @@
     width: 100%;
 }
 
+
+ul > div > li {
+    list-style-type: "☑";
+    margin: 10px;
+}
 .container-right {
     padding-top: 50px;
     width: 100%;
@@ -34,4 +42,102 @@
     padding:20px;
     border: 1px solid #ffd;
     border-radius: 4px;
+}
+
+.card {
+    width: 30rem;
+    color: #212;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* form styling */
+
+
+form input {
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+
+form > div > button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+/* section-2 styling */
+.section-2 {
+    height: 600px;
+    background-color: #fff;
+    width: 100vw;
+    padding: 40px 0 40px 0;
+}
+
+section div h1 {
+    text-align: center;
+}
+
+
+div.img {
+    display: flex;
+    height: 145px;
+    width: 15%;
+    margin: 15px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 {
+    height: 500px;
+    background-color: #fff;
+    width: 100vw;
+    padding: 40px 0 40px 0
+}
+
+section.section-3 {
+    display:flex;
+    flex-direction: column  ;
+}
+
+.section-3 h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-3 div > ul > li {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Outlet-container  {
+    padding-bottom: 20px;
+}
+
+/* Pricing styling */
+
+.section-5 {
+    height:max-content;
+    width: max-content;
+    background-color: #fff;
+    width: 100vw;
+    padding: 40px 0 40px 0
+}
+
+.price-table tr > td {
+    padding: 10px;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+table.d-1 {
+    margin-top: 78px;
 }
